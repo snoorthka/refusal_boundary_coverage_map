@@ -1,11 +1,11 @@
-# trainplat_jd129
+# refusal_boundary_coverage_map
 
 **映射大模型训练平台工程师·拒答边界与过度拒答的覆盖情况并找出未覆盖的部分。**
 
-`trainplat_jd129` —— 把候选项映射到类别上，算出大模型训练平台工程师·拒答边界与过度拒答的覆盖率并列出未覆盖的类别
+`refusal_boundary_coverage_map` —— 把候选项映射到类别上，算出大模型训练平台工程师·拒答边界与过度拒答的覆盖率并列出未覆盖的类别
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`trainplat_jd129.py` 拷走就能用
+- 单文件，`refusal_boundary_coverage_map.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install snoorthka-trainplat_jd129
+pip install snoorthka-refusal_boundary_coverage_map
 ```
 
 装完直接用命令名调用：
 
 ```bash
-trainplat_jd129 --help
+refusal_boundary_coverage_map --help
 ```
 
-也可以不用安装，直接把 `trainplat_jd129.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `refusal_boundary_coverage_map.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ trainplat_jd129 --help
 ## 用法
 
 ```bash
-python trainplat_jd129.py --file input.txt
-python trainplat_jd129.py --text "示例内容"
-python trainplat_jd129.py --file input.txt --json
+python refusal_boundary_coverage_map.py --file input.txt
+python refusal_boundary_coverage_map.py --text "示例内容"
+python refusal_boundary_coverage_map.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python trainplat_jd129.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_trainplat_jd129.py
+python test_refusal_boundary_coverage_map.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_trainplat_jd129.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/snoorthka/trainplat_jd129>
+- GitHub 仓库：<https://github.com/snoorthka/refusal_boundary_coverage_map>
 
 ---
 
@@ -79,7 +79,7 @@ python test_trainplat_jd129.py
 snoorthka 做大模型训练平台工程师·拒答边界与过度拒答相关的问题，方向对标生数科技的资深大模型训练平台工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://snoorthka.github.io>
-- 仓库：<https://github.com/snoorthka/trainplat_jd129>
+- 仓库：<https://github.com/snoorthka/refusal_boundary_coverage_map>
 
 ## 许可
 

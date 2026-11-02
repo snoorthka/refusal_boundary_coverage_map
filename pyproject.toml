@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "snoorthka-trainplat_jd129"
+name = "snoorthka-refusal_boundary_coverage_map"
 version = "0.1.0"
 description = "把候选项映射到类别上，算出大模型训练平台工程师·拒答边界与过度拒答的覆盖率并列出未覆盖的类别"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://snoorthka.github.io"
-Repository = "https://github.com/snoorthka/trainplat_jd129"
-Issues = "https://github.com/snoorthka/trainplat_jd129/issues"
+Repository = "https://github.com/snoorthka/refusal_boundary_coverage_map"
+Issues = "https://github.com/snoorthka/refusal_boundary_coverage_map/issues"
 
 [project.scripts]
-trainplat_jd129 = "trainplat_jd129:main"
+refusal_boundary_coverage_map = "refusal_boundary_coverage_map:main"
 
 [tool.setuptools]
-py-modules = ["trainplat_jd129"]
+py-modules = ["refusal_boundary_coverage_map"]
